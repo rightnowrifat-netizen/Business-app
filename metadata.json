@@ -1,0 +1,6 @@
+{
+  "name": "Bogdadi Traders",
+  "description": "Official app of Mesars Bogdadi Traders, specializing in LPG gas cylinders, gas stoves, and premium kitchen appliances under the leadership of Rofiqul Islam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

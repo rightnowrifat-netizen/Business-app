@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle backdrop shadow for the icon main elements -->
+    <path
+        android:fillColor="#40000000"
+        android:pathData="M 40,48 C 40,44.7 42.7,42 46,42 L 62,42 C 65.3,42 68,44.7 68,48 L 68,76 C 68,79.3 65.3,82 62,82 L 46,82 C 42.7,82 40,79.3 40,76 Z" />
+
+    <!-- main Gas Cylinder Body -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:strokeColor="#CFD8DC"
+        android:strokeWidth="1.5"
+        android:pathData="M 42,46 C 42,42.7 44.7,40 48,40 L 60,40 C 63.3,40 66,42.7 66,46 L 66,74 C 66,77.3 63.3,80 60,80 L 48,80 C 44.7,80 42,77.3 42,74 Z" />
+
+    <!-- Cylinder Bottom Rim -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M 42,72 L 66,72 L 66,77 C 66,78.7 64.7,80 63,80 L 45,80 C 43.3,80 42,78.7 42,77 Z" />
+
+    <!-- Handle & Guard Rim on top -->
+    <path
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 46,40 L 46,31 C 46,29.3 47.3,28 49,28 L 59,28 C 60.7,28 62,29.3 62,31 L 62,40" />
+
+    <!-- Safety Valve Dial (Brass) -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M 50,35 A 4,4 0 1,1 58,35 A 4,4 0 1,1 50,35" />
+
+    <!-- Premium Gas Flame sitting on top representing active, reliable power -->
+    <path
+        android:pathData="M 54,16 C 54,16 59,21 59,25 C 59,27.8 56.8,30 54,30 C 51.2,30 49,27.8 49,25 C 49,21 54,16 54,16 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="16"
+                android:endX="54"
+                android:endY="30"
+                android:type="linear">
+                <item android:color="#FF5722" android:offset="0.0" />
+                <item android:color="#FFC107" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sub Flame Core (Vibrant Blue Teal) representing high efficiency burners -->
+    <path
+        android:pathData="M 54,22 C 54,22 56.5,25 56.5,27 C 56.5,28.4 55.4,29.5 54,29.5 C 52.6,29.5 51.5,28.4 51.5,27 C 51.5,25 54,22 54,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="22"
+                android:endX="54"
+                android:endY="29.5"
+                android:type="linear">
+                <item android:color="#00E5FF" android:offset="0.0" />
+                <item android:color="#006064" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
